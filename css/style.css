@@ -38,18 +38,65 @@ header {
     
 }
 
+mixbox{
+    display: flex;
+    flex-flow: column wrap;
+    width: 1000px;
+    margin: 0 auto;
+    height: 100%;
+}
 
 section {
     float: right;
-    width: 560px;
+    width: 700px;
 }
 
 .wrapper {
-    width: 920px;
+    width: 1000px;
     margin: 0 auto;
     height: 100%;
 }
 
 iframe {
     width: 90%;
+}
+
+.with-image {
+    display: flex;
+    align-items: center;
+}
+
+.with-image div {
+    margin: 10px;
+}
+
+.with-image img {
+    height: 150px;
+    width: auto;
+}
+
+.img-with-text {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 150px;
+}
+
+.img-with-text img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.caption{
+    display: flex;
+    margin-left: auto;
+    font-size: 12px;
+}
+
+.image {
+    display: block;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
 }
