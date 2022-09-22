@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Alexander Grant</title>
+        <title>Spartian Security</title>
         <meta name="robots" context="index,follow">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/style.css"> 
@@ -10,8 +10,8 @@
         <div class="wrapper">
             <header>
                 <p>
-                    <h1 style="line-height: 0.5em;"><a href="https://github.io/">Alexander M Grant</a></h1>
-                    <a href="/Grant-Alex">GitHub</a> | <a href="https://www.linkedin.com/in/alex-g-6a866216a/">LinkedIn</a>
+                    <h1 style="line-height: 0.5em;"><a href="https://Grant-Alex.github.io/">Alexander M Grant</a></h1>
+                    <a href="https://github.com/Grant-Alex">GitHub</a> | <a href="https://www.linkedin.com/in/alex-g-6a866216a/">LinkedIn</a>
                 </p>
                 <p><em><b style="text-decoration: underline;">My Projects</b></em></p>
                 <p><a target="_blank" href="/catacombs.html">The Champions of the Catacombs</a></p>
@@ -22,24 +22,41 @@
             <section>
                 <h2>Spartian Security</h2>
                 <hr/>
+                <p >
+                    <a href="https://github.com/burchcatwit/password_manager">Visit the repository</a>
+                </p>
                 <p>
-                    I'm a passionate software developer who recently earned their bachelor's degree in computer science.
-                    I love exploring new and experimental software and managed to do a lot during my time at The Wentworth Institute of Technology.
-                    Over the years I got to study everything from Game Development to Data Analysis using Machine Learning.
-                    I also worked on a multitude of projects, covering topics such as game, mobile, and web development, as well as Machine Learning and Image Processing. 
-                    Most of these projects can be found on the sidebar.
+                    Spartian Security was a password managed created for my Software Engineering class along with 3 other students. 
+                    The original goal of the project was to create a password manager a la Bitwarden or LastPass.
+                    This provided to be a unique challenge as the concepts required for a password manager were new to all of us. 
+                    To make sure that the project stayed productive throughout its development lifecycle, tasks were split up among the members.
+                    It was mainly split up into four parts, the login logout functionality, user management of the password list, app and plugin functionality, 
+                    and security for that application. My job was getting the user management of the password list up and working. This involved things such as
+                    being able to add, remove, and edit things such as usernames, passwords, and notes, as well as exporting or importing a password list.
                     
                 </p>
 
+                <img class="image" src="/PeronalProjectScreenShots/SpartianSecurity/passwordmanager.png"/>
+
                 <p>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Now, degree in hand, I am currently working on my own projects while looking at new technologies to try out, with my current goal being to broaden my horizens in the game development field. 
-                    With bigger game engines such as Unreal creating things such as Lumen and Nanite, and smaller engines such as Godot overhauling their engine to rival ones such as Unity, there has never been a better time to be in the game development field. 
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Above can be seen the culmination of what I managed to accomplish during the full development time.
+                    On a basic level everything that was wanted was able to be developed. Any existing accounts tied to a user is fetched from 
+                    our cloud based database of choice, MongoDB, and if they wish to add or delete any accounts, the database will update to reflect this.
+                    Each account in the list has the basic necessary features, such as the website the account belongs to, the username and password of the
+                    account, as well as an option to write down any other notes needed about the site. The username, password, and note can be copied or edited at 
+                    will, and the password is kept hidden to prevent anyone nearby to the user from seeing it. The import and export features also got basic functionality,
+                    with the user being able to export their account list by converting the accounts database into a text file. Import worked the exact same in the oppisite order, 
+                    taking a text file and converting it to a database. Import was also given basic checks such as making sure the file was valid as well as checking for duplicates.
                 </p>
 
                 <p>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Below my resume can be found, which summarize the most current information about me. Any comments or quesitons about me or my projects can be directed towards my email <a href="mailto:Alexander.M.Grant@outlook.com">Alexander.M.Grant@outlook.com</a>.
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;By the end of development time, a good prototype for what could be was able to be created. Logging in and logging out
+                    had the very basics to be used in conjunction with adding and remove passwords from an account, and even had other small features such as a password
+                    generator. Other features, however, were unable to be added. There was no app or extention component to the software, though an extention would later be
+                    made when some group members continued to develope the project as a senior project, and while researched had been done, security was nonexistent. Overall, the
+                    project was a good lesson in managing expectation, as well as figuring out how to assign jobs among members based on their strengths and weaknesses, and despite
+                    not meeting the original goal, a significant amount of progress was made.
                 </p>
-                <!-- https://github.com/burchcatwit/password_manager -->
             </section>
         </div>
     </body>
