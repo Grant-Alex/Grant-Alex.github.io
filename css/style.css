@@ -100,3 +100,7 @@ iframe {
     margin-left: auto;
     margin-right: auto;
 }
+
+header hr {
+    margin: 0 30px;
+}
